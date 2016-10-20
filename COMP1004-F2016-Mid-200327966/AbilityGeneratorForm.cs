@@ -107,5 +107,11 @@ namespace COMP1004_F2016_Mid_200327966
             // Step 5 - Show the next form
             raceAndClassForm.Show();
         }
+
+        //close the form when close is chosen
+        private void AbilityGeneratorForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

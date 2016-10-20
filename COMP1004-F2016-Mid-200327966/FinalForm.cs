@@ -38,5 +38,13 @@ namespace COMP1004_F2016_Mid_200327966
         {
             Application.Exit();
         }
+
+
+        //Ran out of time but tried fill the final form load with the characters
+        private void FinalForm_Load(object sender, EventArgs e)
+        {
+            FinalFirstNameTextBox.Text = Program.character.FirstName;
+            FinalLastNameTextBox.Text = Program.character.LastName;
+        }
     }
 }

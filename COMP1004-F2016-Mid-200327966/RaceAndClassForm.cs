@@ -49,6 +49,8 @@ namespace COMP1004_F2016_Mid_200327966
 
             finalForm.Show();
             this.Hide();
+
+            
         }
     }
 }
