@@ -45,6 +45,13 @@ namespace COMP1004_F2016_Mid_200327966
         {
             FinalFirstNameTextBox.Text = Program.character.FirstName;
             FinalLastNameTextBox.Text = Program.character.LastName;
+            StrengthTextBox.Text = Program.character.Strength;
+            CharismaTextBox.Text = Program.character.Charisma;
+            DexterityTextBox.Text = Program.character.Dexterity;
+            ConstitutionTextBox.Text = Program.character.Constitution;
+            WisdomTextBox.Text = Program.character.Wisdom;
+            IntelligenceTextBox.Text = Program.character.Intelligence;
+            RaceTextBox2.Text = Program.character.Race;
         }
     }
 }

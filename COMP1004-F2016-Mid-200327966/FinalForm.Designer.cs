@@ -55,7 +55,7 @@
             this.FirstNameLabel2 = new System.Windows.Forms.Label();
             this.FinalFirstNameTextBox = new System.Windows.Forms.TextBox();
             this.RaceLabel = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.RaceTextBox2 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.AbilityGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -324,13 +324,13 @@
             this.RaceLabel.TabIndex = 13;
             this.RaceLabel.Text = "Race";
             // 
-            // textBox2
+            // RaceTextBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(168, 148);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(152, 26);
-            this.textBox2.TabIndex = 12;
+            this.RaceTextBox2.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RaceTextBox2.Location = new System.Drawing.Point(168, 148);
+            this.RaceTextBox2.Name = "RaceTextBox2";
+            this.RaceTextBox2.Size = new System.Drawing.Size(152, 26);
+            this.RaceTextBox2.TabIndex = 12;
             // 
             // FinalForm
             // 
@@ -340,7 +340,7 @@
             this.ClientSize = new System.Drawing.Size(531, 507);
             this.ControlBox = false;
             this.Controls.Add(this.RaceLabel);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.RaceTextBox2);
             this.Controls.Add(this.LastNameLabel2);
             this.Controls.Add(this.FinalLastNameTextBox);
             this.Controls.Add(this.FirstNameLabel2);
@@ -393,6 +393,6 @@
         private System.Windows.Forms.Label FirstNameLabel2;
         private System.Windows.Forms.TextBox FinalFirstNameTextBox;
         private System.Windows.Forms.Label RaceLabel;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox RaceTextBox2;
     }
 }
